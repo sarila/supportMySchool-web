@@ -14,8 +14,11 @@
 
 <body>
   <div class="container">
+
+  <?php include './header.php';  ?>
+    
     <!-- header start -->
-    <div class="header_container">
+    <!-- <div class="header_container">
       <nav class="navbar">
         <a class="navbar-brand" href="/">
           SMS
@@ -31,13 +34,13 @@
               <a class="nav-link" href="/">home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Budget</a>
+              <a class="nav-link" href="#budget">Budget</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Blogs</a>
+              <a class="nav-link" href="#blog">Blogs</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">About</a>
+              <a class="nav-link" href="about">About</a>
             </li>
           </ul>
           <div class="close_btns">
@@ -45,11 +48,10 @@
           </div>
         </div>
       </nav>
-    </div>
+    </div> -->
     <!-- header end -->
 
     <!-- hero section start -->
-
     <div class="hero_section_wrapper">
       <div class="hero_section_left">
         <div class="title_paragraph">
@@ -57,7 +59,7 @@
           <p>The annual budget allocation for each government school varies according to the specific requirements of
             the school.</p>
         </div>
-        <div class="budgets_wrapper">
+        <div class="budgets_wrapper" id="budget">
           <div class="budget">
             <div class="details">
               <h3>education budget of fiscal year 2023/2024</h3>
@@ -145,7 +147,7 @@
           </div>
 
           <div class="show_more_button">
-            <a href="/budget">show all</a>
+            <a href="./budget.php">show all</a>
           </div>
         </div>
       </div>
@@ -162,101 +164,27 @@
         </div>
       </div>
     </div>
-
     <!-- hero section end -->
 
     <!-- Status section start -->
-
-    <div class="status_container">
-      <h2>Request/Report Status</h2>
-      <div class="status_div_wrapper">
-        <div class="status_wrapper">
-          <p>Report Accepted</p>
-          <h3><span>105 (100%)</span></h3>
-        </div>
-        <div class="status_wrapper">
-          <p>on review</p>
-          <h3><span>11 (8%)</span></h3>
-        </div>
-        <div class="status_wrapper">
-          <p>on hold</p>
-          <h3><span>47 (45%)</span></h3>
-        </div>
-        <div class="status_wrapper">
-          <p>resolved</p>
-          <h3><span>47 (45%)</span></h3>
-        </div>
-      </div>
-    </div>
-
+    <?php include './status.php'; ?>
     <!-- Status section end -->
 
 
     <!-- how it works section start -->
-
-    <div class="how_it_works_container">
-      <h2>how it works?</h2>
-      <div class="htw_content_wrapper">
-        <div class="htw_wrapper">
-          <div class="circle"><span>1</span></div>
-          <p>report</p>
-        </div>
-        <div class="htw_wrapper">
-          <div class="circle"><span>2</span></div>
-          <p>review</p>
-        </div>
-        <div class="htw_wrapper">
-          <div class="circle"><span>3</span></div>
-          <p>Result</p>
-        </div>
-      </div>
-    </div>
-
+    <?php include './work.php'; ?>
     <!-- how it works section end -->
+
     <!-- stake holder section start -->
-
-    <div class="stakeholder_container">
-      <div class="stakeholders_title">
-        <h2>Unveiling the Beneficiaries of Our Platform</h2>
-        <p>Our Platform's Wide Reach: Empowering over 34,368 Nepalese Government Schools, Monitoring Yearly Milestones, Assisting News Officials in Reporting Annual Progress, and Engaging Local and Provincial Government Entities.</p>
-      </div>
-
-      <div class="stakeholders_wrapper">
-        <div class="stakeholder_wrapper">
-          <h2>26k +</h2>
-          <p>government schools</p>
-        </div>
-        <div class="stakeholder_wrapper">
-          <h2>7</h2>
-          <p>provinces</p>
-        </div>
-        <div class="stakeholder_wrapper">
-          <h2>50 +</h2>
-          <p>private news channels</p>
-        </div>
-        <div class="stakeholder_wrapper">
-          <h2>1</h2>
-          <p>nepal government</p>
-        </div>
-        <div class="stakeholder_wrapper">
-          <h2></h2>
-          <p>communities</p>
-        </div>
-        <div class="stakeholder_wrapper">
-          <h2>20 +</h2>
-          <p>organizations who work on education of nepal</p>
-        </div>
-      </div>
-    </div>
-
+    <?php include './stakeholders.php'; ?>
     <!-- stake holder section end -->
-    <!-- blog section start -->
 
-    <div class="blog_container">
+    <!-- blog section start -->
+    <div class="blog_container" id="blog">
       <div class="blog_header">
         <h2>explore articles</h2>
         <div class="blog_section_button">
-          <button><a href="/blog">show more</a></button>
+          <button><a href="./blog.php">show more</a></button>
         </div>
       </div>
       <div class="blog_wrapper">
@@ -326,10 +254,9 @@
         </div>
       </div>
     </div>
-
     <!-- blog section end -->
+
     <!-- news letter -->
-    
     <div class="news_letter_container">
       <h2>Newsletter</h2>
       <p>Receive the most recent updates, reports, notifications about events from our dedicated team.</p>
@@ -338,55 +265,10 @@
         <button>subscribe</button>
       </div>
     </div>    
-
     <!-- news letter -->
+
     <!-- start of footer section -->
-
-    <div class="footer_container">
-      <div class="footer_links_wrapper">
-        <div class="imp_links">
-          <h2>important links</h2>
-          <ul>
-            <li> <a href="#">Education Minister</a></li>
-            <li><a href="#">Nepal Finance Minister</a></li>
-            <li><a href="#">Mero Sarkar</a></li>
-            <li><a href="#">Nepal Computer Science and Technology</a></li>
-          </ul>
-        </div>
-
-        <div class="company_footer_logo">
-          <img src="#" alt="SMS">
-          <ul>
-            <li>Gausala, Kathmandu, Nepal</li>
-            <li>supportmyschool@gmail.com</li>
-            <li>+9779818766533</li>
-            <li>Post Box XXX.XXX.XXX</li>
-          </ul>
-        </div>
-        <div class="social_media_wrapper">
-          <h2>Let's connect</h2>
-          <ul>
-            <li>
-              <a href="www.facebook.com">Facebook</a>
-            </li>
-            <li>
-              <a href="www.linkedin.com">Linkedin</a>
-            </li>
-            <li>
-              <a href="www.twitter.com">Twitter</a>
-            </li>
-            <li>
-              <a href="www.instagram.com">Instagram</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-
-      <div class="copy_right">
-        <p>2023, all rights reserved by Support My School</p>
-      </div>
-    </div>
-
+    <?php include './footer.php' ?>
     <!-- end of footer section -->
 
   </div>

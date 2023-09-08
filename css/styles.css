@@ -84,7 +84,7 @@
     padding: 30px 50px;
     display: flex;
     width: 100%;
-    min-height: 100vh;
+    height: fit-content;
     gap: 20px;
 }
 
@@ -169,6 +169,7 @@
 
 .hero_section_wrapper .hero_section_right {
     width: 50%;
+    height: 100%;
 }
 
 .hero_section_wrapper .hero_section_right .report_wrapper {
@@ -583,7 +584,7 @@
 
 /* end of footer section css */
 
-@media (max-width: 1260px) {
+@media (max-width: 1360px) {
     .navbar {
         width: 100%;
         padding: 0px 50px;
@@ -592,7 +593,6 @@
 
 @media (max-width: 1024px) {
     /* header css start */
-
     .navbar-nav {
         position: fixed;
         height: 100vh;
