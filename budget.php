@@ -7,7 +7,6 @@
     <title>Document</title>
     <style>
         .budgetpage_container{
-            
             min-height: 100vh;
             display: flex;
             justify-content: center;

@@ -17,40 +17,6 @@
 
   <?php include './header.php';  ?>
     
-    <!-- header start -->
-    <!-- <div class="header_container">
-      <nav class="navbar">
-        <a class="navbar-brand" href="/">
-          SMS
-        </a>
-        <div class="" id="navbarNav">
-
-          <ul class="navbar-nav" id="dropdown">
-
-            <div class="close_icon_container">
-              <i class="fas fa-times close_icon" id="close_menu_icon" style="font-size: 25px;"></i>
-            </div>
-            <li class="nav-item active">
-              <a class="nav-link" href="/">home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#budget">Budget</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#blog">Blogs</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="about">About</a>
-            </li>
-          </ul>
-          <div class="close_btns">
-            <i class="fas fa-bars" id="show_menu_icon" style="font-size: 25px;"></i>
-          </div>
-        </div>
-      </nav>
-    </div> -->
-    <!-- header end -->
-
     <!-- hero section start -->
     <div class="hero_section_wrapper">
       <div class="hero_section_left">
