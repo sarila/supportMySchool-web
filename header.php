@@ -20,7 +20,7 @@
     <div class="header_container">
       <nav class="navbar">
         <a class="navbar-brand" href="./">
-          SMS
+         SMS
         </a>
         <div class="" id="navbarNav">
 

@@ -17,7 +17,7 @@
 }
 
 .aboutpage_container .image_desc_wrapper .desc p {
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 300;
 }
 
@@ -62,12 +62,13 @@
 }
 
 .aboutpage_container .values_wrapper ul li {
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 500;
   color: #2d4a79;
 }
+
 .aboutpage_container .values_wrapper ul p {
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 300;
   padding-left: 20px;
   padding-bottom: 10px;
@@ -89,7 +90,7 @@
 }
 
 .swiper div p {
-  font-size: 14px;
+  font-size: 16px;
   text-transform: initial;
   text-align: center;
   margin: 10px 0px;
@@ -182,6 +183,19 @@
   .aboutpage_container .values_wrapper {
     padding: 30px;
   }
+  .aboutpage_container .values_wrapper ul li {
+  font-size: 16px;
+ 
+}
+.aboutpage_container .values_wrapper ul p{
+  font-size: 14px;
+}
+.aboutpage_container .image_desc_wrapper .desc p, .swiper div p{
+  font-size: 14px;
+}
+
+
+
 }
 
 @media (max-width: 668px) {
