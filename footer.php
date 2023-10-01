@@ -11,7 +11,7 @@
         </div>
 
         <div class="company_footer_logo">
-          <img src="./images//rmlogo.png" alt="SMS">
+          <img src="./images//logo.png" alt="SMS">
           <ul>
             <li>Gausala, Kathmandu, Nepal</li>
             <li>supportmyschool@gmail.com</li>

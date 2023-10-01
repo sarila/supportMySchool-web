@@ -1,3 +1,12 @@
+/* 
+    
+#2D4A79
+#3D91F9
+#F4F9FF
+#F1F1E6
+
+*/
+
 * {
     margin: 0px;
     padding: 0px;
@@ -12,26 +21,23 @@
     width: 100%;
     position: relative;
     margin: auto;
-    background-color: #708090;
+    background-color: #F4F9FF;
 }
 
 .navbar {
     margin: 0px auto;
     max-width: 1260px;
-    height: 90px;
+    height: 100px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     position: relative;
+    border-bottom: 1px solid #FF6B6B;
 }
 
 .navbar-brand {
-    height: auto;
-    width: 200px;
-    /* border: 1px solid red; */
-    font-size: 24px;
-    font-weight: 600;
-    color: #2D4A79;
+    height: 90px;
+    width:180px;
 }
 
 .navbar-brand img{
@@ -62,7 +68,7 @@
 .navbar a {
     text-decoration: none;
     text-transform: capitalize;
-    color: #fff;
+    color: #2D4A79;
 }
 
 .close_btns {
@@ -71,7 +77,6 @@
     align-items: center;
     gap: 10px;
     display: none;
-    color: white;
 }
 
 .close_icon_container {
@@ -82,7 +87,7 @@
 }
 
 .close_icon {
-    color: white;
+    /* color: #2D4A79; */
     display: none;
 }
 
@@ -265,7 +270,7 @@
 }
 
 .status_container .status_wrapper {
-    background-color: #add8e6;
+    background-color: lightgrey;
     height: 180px;
     display: flex;
     flex-direction: column;
@@ -548,7 +553,8 @@
 .footer_container {
     padding: 10px 50px;
     padding-top: 20px;
-    background-color: #2D4A79;
+    /* background-color: #5F6465; */
+    background-color: #708090;
     overflow: hidden;
     color: #fff;
 }
@@ -563,7 +569,7 @@
     text-transform: capitalize;
     font-size: 20px;
     font-weight: 600;
-    color: #FF6B6B;
+    color: #2D4A79;
 }
 .footer_container .footer_links_wrapper .imp_links ul{
     
@@ -596,6 +602,11 @@
     align-items: center;
     gap: 15px;
 }
+.footer_container .footer_links_wrapper .company_footer_logo img{
+    height: auto;
+    width: 200px;
+    /* border: 1px solid red; */
+}
 
 .footer_container .footer_links_wrapper .company_footer_logo ul li {
     margin-bottom: 5px;
@@ -607,7 +618,7 @@
 
 .footer_container .footer_links_wrapper .social_media_wrapper h2 {
     font-size: 20px;
-    color: #FF6B6B;
+    color: #2D4A79;
 }
 .footer_container .footer_links_wrapper .social_media_wrapper ul{
     padding: 10px;
@@ -650,7 +661,8 @@
         height: 100vh;
         left: -100%;
         top: 90px;
-        background-color: #0082e6;
+        /* background-color: #0082e6; */
+        background-color: #F4F9FF;
         border-top: 1px solid white;
         flex-direction: column;
         justify-content: start;
@@ -733,7 +745,8 @@
         grid-template-columns: auto auto;
     }
 
-    .blog_container{
+    .blog_cov
+    ntainer{
         padding: 0px 30px;
         
     }

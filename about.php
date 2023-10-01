@@ -6,7 +6,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>About | Support My School</title>
     <!-- font awesome icons  -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
@@ -124,8 +124,8 @@
                     </div>
                 </div>
             </div>
-            <div class="swiper-button-next"></div>
-            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next" style='color: #FF6B6B; margin-right: 30px'></div>
+            <div class="swiper-button-prev" style='color: #FF6B6B; margin-left: 30px'></div>
             <!-- <div class="swiper-pagination"></div> -->
         </div>
     </div>

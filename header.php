@@ -1,5 +1,3 @@
-
-
 <html lang="en">
 
 <head>
@@ -10,7 +8,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
   <link rel="stylesheet" href="css/styles.css">
-  
+
   <title>SMS | Budget Transparency in Education</title>
 </head>
 
@@ -19,9 +17,11 @@
     <!-- header start -->
     <div class="header_container">
       <nav class="navbar">
-        <a class="navbar-brand" href="./">
-         SMS
-        </a>
+        <div class="navbar-brand">
+         <a href="./">
+          <img src="./images//logo.png" alt="sms_logo">
+         </a>
+        </div>
         <div class="" id="navbarNav">
 
           <ul class="navbar-nav" id="dropdown">
