@@ -33,6 +33,7 @@
     display: none;
     border: 1px solid lightgrey;
     padding-bottom: 10px;
+    box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1);
 }
 
 .blog_cards .blog_card_group:nth-child(1),
@@ -45,8 +46,8 @@
 }
 
 .blog_cards .blog_card_group:hover{
-    box-shadow: 0px 8px 11px -5px #FF6B6B;
-    transition: all 300ms ease-in;
+    scale: 0.98;
+  transition: all 500ms ease-in-out;
 }
 
 .blog_cards .blog_card_group .blog_image{

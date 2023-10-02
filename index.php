@@ -8,6 +8,8 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+  <!-- icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="css/styles.css">
   <title>SMS | Budget Transparency in Education</title>
 </head>
@@ -15,8 +17,8 @@
 <body>
   <div class="container">
 
-  <?php include './header.php';  ?>
-    
+    <?php include './header.php';  ?>
+
     <!-- hero section start -->
     <div class="hero_section_wrapper">
       <div class="hero_section_left">
@@ -39,8 +41,12 @@
               </div>
             </div>
             <div class="view_and_download_button">
-              <button>view</button>
-              <button>download</button>
+              <button>
+                <i class="fa-solid fa-eye"></i>
+              </button>
+              <button>
+                <i class="fa-solid fa-download"></i>
+              </button>
             </div>
           </div>
           <div class="budget">
@@ -56,8 +62,12 @@
               </div>
             </div>
             <div class="view_and_download_button">
-              <button>view</button>
-              <button>download</button>
+              <button>
+                <i class="fa-solid fa-eye"></i>
+              </button>
+              <button>
+                <i class="fa-solid fa-download"></i>
+              </button>
             </div>
           </div>
           <div class="budget">
@@ -73,8 +83,12 @@
               </div>
             </div>
             <div class="view_and_download_button">
-              <button>view</button>
-              <button>download</button>
+              <button>
+                <i class="fa-solid fa-eye"></i>
+              </button>
+              <button>
+                <i class="fa-solid fa-download"></i>
+              </button>
             </div>
           </div>
           <div class="budget">
@@ -90,8 +104,12 @@
               </div>
             </div>
             <div class="view_and_download_button">
-              <button>view</button>
-              <button>download</button>
+              <button>
+                <i class="fa-solid fa-eye"></i>
+              </button>
+              <button>
+                <i class="fa-solid fa-download"></i>
+              </button>
             </div>
           </div>
           <div class="budget">
@@ -107,13 +125,18 @@
               </div>
             </div>
             <div class="view_and_download_button">
-              <button>view</button>
-              <button>download</button>
+              <button>
+                <i class="fa-solid fa-eye"></i>
+              </button>
+              <button>
+                <i class="fa-solid fa-download"></i>
+              </button>
             </div>
           </div>
 
           <div class="show_more_button">
             <a href="./budget.php">show all</a>
+            <i class="fa-solid fa-arrow-right-long"></i>
           </div>
         </div>
       </div>
@@ -123,7 +146,7 @@
           <p>
             A report can be done by students, teachers, parents, youths, organizations, and the people from local community. This report cover a wind range of topics concerning the school, such as aspects related to infrastructure, science lap, computer lap, the library, sports, and more.
           </p>
-          <button>Request/Report</button>
+          <button> <i class="fa-solid fa-pen-to-square"></i>  Request/Report</button>
         </div>
         <div class="img_wrapper">
           <img src="./images/budgetshow.jpg" alt="budget show">
@@ -156,7 +179,7 @@
       <div class="blog_wrapper">
         <div class="blog">
           <div class="blog_image">
-              <img src="./images/budgetshow.jpg" alt="image">
+            <img src="./images/budgetshow.jpg" alt="image">
           </div>
           <div class="blog_detail">
             <h3><a href="#">Summery of Nepal Government School Budget 2023/2024</a></h3>
@@ -172,7 +195,7 @@
         </div>
         <div class="blog">
           <div class="blog_image">
-              <img src="./images/budgetshow.jpg" alt="image">
+            <img src="./images/budgetshow.jpg" alt="image">
           </div>
           <div class="blog_detail">
             <h3><a href="#">Summery of Nepal Government School Budget 2023/2024</a></h3>
@@ -188,7 +211,7 @@
         </div>
         <div class="blog">
           <div class="blog_image">
-              <img src="./images/budgetshow.jpg" alt="image">
+            <img src="./images/budgetshow.jpg" alt="image">
           </div>
           <div class="blog_detail">
             <h3><a href="#">Summery of Nepal Government School Budget 2023/2024</a></h3>
@@ -204,10 +227,10 @@
         </div>
         <div class="blog">
           <div class="blog_image">
-              <img src="./images/budgetshow.jpg" alt="image">
+            <img src="./images/budgetshow.jpg" alt="image">
           </div>
           <div class="blog_detail">
-            <h3><a href="#">Summery of Nepal Government School Budget 2023/2024</a></h3> 
+            <h3><a href="#">Summery of Nepal Government School Budget 2023/2024</a></h3>
             <div class="date_author">
               <label for="date">
                 <span>date: </span><span>july 23, 2023</span>
@@ -230,7 +253,7 @@
         <input type="text" placeholder="Subscribe and unsubscribe anytime.">
         <button>subscribe</button>
       </div>
-    </div>    
+    </div>
     <!-- news letter -->
 
     <!-- start of footer section -->
