@@ -11,7 +11,7 @@
         </div>
 
         <div class="company_footer_logo">
-          <img src="#" alt="SMS">
+          <img src="./images//logo.png" alt="SMS">
           <ul>
             <li>Gausala, Kathmandu, Nepal</li>
             <li>supportmyschool@gmail.com</li>
@@ -23,15 +23,18 @@
           <h2>Let's connect</h2>
           <ul>
             <li>
+            <i class="fa-brands fa-square-facebook"></i>
               <a href="www.facebook.com">Facebook</a>
             </li>
             <li>
+            <i class="fa-brands fa-linkedin"></i>
               <a href="www.linkedin.com">Linkedin</a>
             </li>
             <li>
+            <i class="fa-brands fa-square-twitter"></i>
               <a href="www.twitter.com">Twitter</a>
             </li>
-            <li>
+            <li><i class="fa-brands fa-square-instagram"></i>
               <a href="www.instagram.com">Instagram</a>
             </li>
           </ul>
